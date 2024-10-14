@@ -1,0 +1,77 @@
+﻿@{
+	Layout = null;
+}
+<a href="~/lib/bootstrap/dist/css/bootstrap.min.css.map"></a>
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Admin</title>
+
+	@RenderSection("styles", false)
+</head>
+<body>
+
+
+@*	<partial name="~/Views/Home/partials/_HaderPartial.cshtml" />*@
+
+	<div class="container-fluid g-0">
+		<div class="row">
+			<div class="col-12">
+				<header>
+					<nav class="navbar navbar-expand-lg bg-dark">
+						<div class="container-fluid">
+							<div class=" text-light">  <img src="BloggImage/7bd87265-7d40-459e-9761-7c92b729fb21.png " class="yuvarlak2" style="border-radius:50%;height: 50px;" /> SEYYİT MEHMET SELVİ</div>
+						</div>
+					</nav>
+
+
+
+
+				</header>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="row " >
+
+		<div class="col-md-2 col-sm-6 navbar-toggler" style="  background-color:		#2F3036; text-align:center; align-content:center;min-height:100vh; ">
+			@*menü burası scrollspy*@
+
+
+
+			<div class="w-100  pt-2 pr-2   " style="height:90vh;font-family:'Staatliches'">
+
+				<div id="list-example" class="list-group  ">
+					<a class="list-group-item list-group-item-action m-2" href="/Admin/AdminMain/katagoriler">MenuDesign</a>
+					<a class="list-group-item list-group-item-action m-2" href="/Admin/AdminMain/CardDesing">CardDesign</a>
+					<a class="list-group-item list-group-item-action m-2" href="/Admin/AdminMain/navbarIdare">NavbarDesign</a>
+					<a class="list-group-item list-group-item-action m-2" href="/Admin/AdminMain/FooterIdare">FooterDesign</a>
+					<a class="list-group-item list-group-item-action m-2" href="/Admin/AdminMain/yorumlar">YorumDesign</a>
+					<a class="list-group-item list-group-item-action m-2" href="/Admin/AdminMain/KullanicilarIdare">KullanicilarDesign</a>
+				</div>
+
+
+
+
+			</div>
+
+		</div>
+
+		@*<partial name="~/Views/Home/partials/_munuPartial.cshtml" />*@
+
+		<div class="col-md-10 col-sm-6 g-0 ">
+			<main role="main" class="pb-0 ">
+				@RenderBody()
+			</main>
+		</div>
+	</div>
+
+
+	@RenderSection("scripts", false)
+</body>
+</html>

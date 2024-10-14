@@ -1,0 +1,102 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - myblog</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/myblog.styles.css" asp-append-version="true" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+
+</head>
+<body class="g-0 p-0">
+
+
+	<div class="d-flex flex-column " style="min-height:100vh;">
+
+
+		@*nawbar*@
+		<partial name="~/Views/Home/partials/_HaderPartial.cshtml" />
+
+		@if (ViewBag.kontrol == 1)
+		{
+			@await Component.InvokeAsync("NavbarrList")
+
+			@*üst resim nav barın altındaki*@
+			@*<div class="container-fluid my-nav d-flex text-center justify-content-center align-items-center ">
+		<div class="row">
+		<div class="col-12">
+		<h1 class=" left-aligned ">
+		<a href="https://www.instagram.com/seyyit_mehmet_selvi/" target="_blank" class=" text-light text-decoration-none sms" style="font-family: 'Fasthand' ">#Seyyit Mehmet Selvi</a>
+		</h1>
+		</div>
+
+		<div class="">
+		<img src="~/img/mixpnk-style-dieselpunk-city-buildings-distant-airships-railways-retro-futurism-socialist-real-.png" class="yuvarlak" />
+		</div>
+		</div>
+		</div>
+		<div class="container-fluid bg-dark " style="height:25px">
+		</div>*@
+		}
+
+		<div class="row ">
+
+			@*	<partial name="~/Views/Home/partials/_munuPartial.cshtml" />*@
+			@await Component.InvokeAsync("MenuList")
+
+			@*@await Html.PartialAsync("MenuDesign")*@
+
+			<div class="col-md-10 col-sm-6 g-0 ">
+				<main role="main">
+					<div class="  d-flex flex-column justify-content-between h-100">
+							@RenderBody()
+					</div>
+
+				</main>
+
+
+			</div>
+			
+			@if (ViewBag.kontrol == 1)
+			{
+				<div class="row justify-content-center  mt-1 g-0 wh-100 pagecontrol" style="background-color:#414449 ;">
+					<div class="btn-group me-2 w-auto pb-2 pt-2 ">
+						@for (int i = 1; i <= Model.PageCount; i++)
+						{
+							<a href="@Url.Action("Index", new { page = i })" class="btn btn-primary me-1">@i</a>
+						}
+					</div>
+				</div>
+
+			}
+
+
+		</div>
+
+
+
+
+		<!-- Footer -->
+		@*<partial name="~/Views/Home/partials/_footerPartial.cshtml" />*@
+		@await Component.InvokeAsync("FooterYazisi")
+		<div class="text-center bg-dark text-light p-3">
+			Tüm hakları saklıdır
+		</div>
+
+	</div>
+
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+
+	@await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

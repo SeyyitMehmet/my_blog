@@ -1,0 +1,82 @@
+﻿@using Entitylayer.Concrate;
+
+
+@{
+	ViewData["Title"] = "Index";
+	//Layout = "~/Areas/Admin/Views/Shared/Admin.cshtml";
+}
+
+
+<head>
+	<meta charset="UTF-8">
+	<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="~/css/admin.css" rel="stylesheet" />
+
+
+</head>
+
+
+<body>
+
+	@using (Html.BeginForm("Index", "Login", new {area="Admin"}, FormMethod.Post))
+	{
+		<div class="login-wrap ">
+			<div class="login-html ">
+				<div class=" d-flex justify-content-center">
+					<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+				</div>
+				
+				@*<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>*@
+				<div class="login-form ">
+					<div class="sign-in-html">
+						<div class="group">
+							<label for="user" class="label">Mail</label>
+							<input id="user" type="email" class="input" name="AdminMail" placeholder="example@gmail.com">
+						</div>
+						<div class="group">
+							<label for="pass" class="label">Password</label>
+							<input id="pass" type="password" class="input" name="AdminPassword" data-type="password">
+						</div>
+						<div class="group">
+							<input id="check" type="checkbox" class="check" checked>
+							<label for="check"><span class="icon"></span> Keep me Signed in</label>
+						</div>
+						<div class="group">
+							<input type="submit" class="button" value="Sign In">
+						</div>
+						<div class="hr"></div>
+						<div class="foot-lnk">
+							<a href="#forgot">Forgot Password?</a>
+						</div>
+					</div>
+				
+				</div>
+			</div>
+		</div>
+	}
+
+	
+
+		
+
+
+
+	@*<footer>
+	<p>
+	Created with <i class="fa fa-heart"></i> by
+	<a target="_blank" href="https://florin-pop.com">Florin Pop</a>
+	- Read how I created this and how you can join the challenge
+	<a target="_blank" href="https://www.florin-pop.com/blog/2019/03/double-slider-sign-in-up-form/">here</a>.
+	</p>
+	</footer>*@
+	<script src="~/css/JavaScript.js"></script>
+@*
+	<script type="text/javascript">
+		function reloadPage() {
+			window.location.reload()
+		}
+	</script>*@
+
+</body>
+
+

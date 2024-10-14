@@ -1,0 +1,84 @@
+﻿ 
+@model IEnumerable<Entitylayer.Concrate.Menu>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+
+<div class="col-md-2 col-sm-6 navbar-toggler" style=" background-color:		#2F3036; text-align:center; align-content:center;height:auto; ">
+ 	
+
+	<div class="w-100 pt-2 ps-2  " style="height:auto ;font-family:'Staatliches'">
+		<hr class="dropdown-divider" style="color:aliceblue">
+		<h6 class="text-light" style="font-size:30px">YAZILIM</h6>
+		<hr class="dropdown-divider " style="color:aliceblue">
+
+		<div id="list-example" class="list-group ">
+			@foreach (var item in Model)
+			{
+				if (item.MenuKatagori == "YZLM")
+				{
+					<a class="list-group-item list-group-item-action" href="/menuController1/oyun/@item.MenuID">@item.MenuTitle</a>
+				}
+				
+					
+				
+			}
+			
+			@*<a class="list-group-item list-group-item-action" href="/menuController1/programlama">programlama</a>
+			<a class="list-group-item list-group-item-action" href="/menuController1/algoritma">algaoritma</a>
+			<a class="list-group-item list-group-item-action" href="/menuController1/Csharp">C#</a>
+			<a class="list-group-item list-group-item-action" href="/menuController1/cplus">c++,c</a>
+			<a class="list-group-item list-group-item-action" href="/menuController1/webtasarım">Web Tasarım</a>
+			<a class="list-group-item list-group-item-action" href="/menuController1/bootsrap">bootstrap</a>*@
+
+			<hr class="dropdown-divider" style="color:aliceblue">
+			<h6 class="text-light" style="font-size:30px">EDEBİYAT</h6>
+			<hr class="dropdown-divider " style="color:aliceblue">
+
+			@foreach (var item in Model)
+			{
+				if (item.MenuKatagori == "EDB")
+				{
+					<a class="list-group-item list-group-item-action" href="/menuController1/oyun/@item.MenuID">@item.MenuTitle</a>
+				}
+
+
+
+			}
+
+			@*<a class="list-group-item list-group-item-action" href="/menuEdebiyat/ingilizedebiyatı">İngiliz Edebiyatı</a>
+			<a class="list-group-item list-group-item-action" href="/menuEdebiyat/rusedebiyatı">Rus Edebiyatı</a>
+			<a class="list-group-item list-group-item-action" href="/menuEdebiyat/turkedebiyatı">Türk Edebiyatı</a>
+			<a class="list-group-item list-group-item-action" href="/menuEdebiyat/willeamsheakspeare">Willeam Sheakspeare </a>
+			<a class="list-group-item list-group-item-action" href="/menuEdebiyat/dostoyevski">Dostoyevski</a>*@
+
+
+		</div>
+		
+		
+
+
+		@*	<div style=" align-content:center">
+		<div class="mb-2" style="text-align:center">
+		<hr class="dropdown-divider" style="color:aliceblue">
+		<label for="exampleFormControlInput1" class="form-label text-light">Email address</label>
+		<hr class="dropdown-divider " style="color:aliceblue">
+
+		<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+
+
+		</div>
+		<div class="mb-3 ">
+		<hr class="dropdown-divider  " style="color:aliceblue">
+		<label for="exampleFormControlTextarea1" class="form-label text-light">Example textarea</label>
+
+		<hr class="dropdown-divider " style="color:aliceblue">
+
+		<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+		</div>
+		</div>*@
+
+	</div>
+	@*<div class="border border-2  text-center text-light " style=" align-content:center; font-family:'Fasthand'">
+	kader gayrete aşıktır
+	</div>*@
+
+</div>

@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sms\\Desktop\\myblog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{318689EA-33E2-4DFA-A2FB-1D94C4D68F63}|myblog\\myblog.csproj|c:\\users\\sms\\desktop\\myblog\\myblog\\views\\home\\partials\\_haderpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{318689EA-33E2-4DFA-A2FB-1D94C4D68F63}|myblog\\myblog.csproj|solutionrelative:myblog\\views\\home\\partials\\_haderpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{318689EA-33E2-4DFA-A2FB-1D94C4D68F63}|myblog\\myblog.csproj|c:\\users\\sms\\desktop\\myblog\\myblog\\views\\home\\partials\\_footerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{318689EA-33E2-4DFA-A2FB-1D94C4D68F63}|myblog\\myblog.csproj|solutionrelative:myblog\\views\\home\\partials\\_footerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{318689EA-33E2-4DFA-A2FB-1D94C4D68F63}|myblog\\myblog.csproj|c:\\users\\sms\\desktop\\myblog\\myblog\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{318689EA-33E2-4DFA-A2FB-1D94C4D68F63}|myblog\\myblog.csproj|solutionrelative:myblog\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{318689EA-33E2-4DFA-A2FB-1D94C4D68F63}|myblog\\myblog.csproj|c:\\users\\sms\\desktop\\myblog\\myblog\\controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{318689EA-33E2-4DFA-A2FB-1D94C4D68F63}|myblog\\myblog.csproj|solutionrelative:myblog\\controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{318689EA-33E2-4DFA-A2FB-1D94C4D68F63}|myblog\\myblog.csproj|c:\\users\\sms\\desktop\\myblog\\myblog\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{318689EA-33E2-4DFA-A2FB-1D94C4D68F63}|myblog\\myblog.csproj|solutionrelative:myblog\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{318689EA-33E2-4DFA-A2FB-1D94C4D68F63}|myblog\\myblog.csproj|c:\\users\\sms\\desktop\\myblog\\myblog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{318689EA-33E2-4DFA-A2FB-1D94C4D68F63}|myblog\\myblog.csproj|solutionrelative:myblog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{318689EA-33E2-4DFA-A2FB-1D94C4D68F63}|myblog\\myblog.csproj|c:\\users\\sms\\desktop\\myblog\\myblog\\views\\home\\partials\\_munupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{318689EA-33E2-4DFA-A2FB-1D94C4D68F63}|myblog\\myblog.csproj|solutionrelative:myblog\\views\\home\\partials\\_munupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "cardController.cs",
+              "DocumentMoniker": "C:\\Users\\sms\\Desktop\\myblog\\myblog\\Controllers\\cardController.cs",
+              "RelativeDocumentMoniker": "myblog\\Controllers\\cardController.cs",
+              "ToolTip": "C:\\Users\\sms\\Desktop\\myblog\\myblog\\Controllers\\cardController.cs",
+              "RelativeToolTip": "myblog\\Controllers\\cardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T10:27:46.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sms\\Desktop\\myblog\\myblog\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "myblog\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sms\\Desktop\\myblog\\myblog\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "myblog\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAACkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-10T10:19:48.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\sms\\Desktop\\myblog\\myblog\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "myblog\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\sms\\Desktop\\myblog\\myblog\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "myblog\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T10:19:05.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_footerPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\sms\\Desktop\\myblog\\myblog\\Views\\Home\\partials\\_footerPartial.cshtml",
+              "RelativeDocumentMoniker": "myblog\\Views\\Home\\partials\\_footerPartial.cshtml",
+              "ToolTip": "C:\\Users\\sms\\Desktop\\myblog\\myblog\\Views\\Home\\partials\\_footerPartial.cshtml",
+              "RelativeToolTip": "myblog\\Views\\Home\\partials\\_footerPartial.cshtml",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAkwFMAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-10T10:05:43.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_HaderPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\sms\\Desktop\\myblog\\myblog\\Views\\Home\\partials\\_HaderPartial.cshtml",
+              "RelativeDocumentMoniker": "myblog\\Views\\Home\\partials\\_HaderPartial.cshtml",
+              "ToolTip": "C:\\Users\\sms\\Desktop\\myblog\\myblog\\Views\\Home\\partials\\_HaderPartial.cshtml",
+              "RelativeToolTip": "myblog\\Views\\Home\\partials\\_HaderPartial.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAmwBYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-10T09:52:04.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_munuPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\sms\\Desktop\\myblog\\myblog\\Views\\Home\\partials\\_munuPartial.cshtml",
+              "RelativeDocumentMoniker": "myblog\\Views\\Home\\partials\\_munuPartial.cshtml",
+              "ToolTip": "C:\\Users\\sms\\Desktop\\myblog\\myblog\\Views\\Home\\partials\\_munuPartial.cshtml",
+              "RelativeToolTip": "myblog\\Views\\Home\\partials\\_munuPartial.cshtml",
+              "ViewState": "AQIAACgAAAAAAAAAAAAmwEEAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-10T09:52:01.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\sms\\Desktop\\myblog\\myblog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "myblog\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\sms\\Desktop\\myblog\\myblog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "myblog\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADAAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-10T09:51:02.415Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

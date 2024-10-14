@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Entitylayer.Concrate.BlogEk>
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@*<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">*@
+@*<link href="~/css/site.css" rel="stylesheet" />*@
+@*<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>*@
+@*<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>*@
+<!------ Include the above in your HEAD tag ---------->
+
+@foreach (var item in Model)
+{
+	
+	<div id="commentsContainer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="cardd bg-light border-0">
+						<!-- border sınıfını kaldırdım -->
+						<div class="card-body p-0">
+							<!-- p-0 sınıfını ekledim -->
+							<div class="d-flex align-items-center">
+								<img src="@item.BlogEkResim" class="img-fluid rounded-circle avatar" alt="user profile image" width="45" height="45">
+								<div class="ms-3">
+									<div class="h5">
+										<a href="#"><strong>@item.BlogEkTitle</strong></a>
+									</div>
+									<h6 class="text-muted">1 minute ago</h6>
+								</div>
+							</div>
+						</div>
+						<hr class="my-0"> <!-- my-0 sınıfını ekledim -->
+						<div class="card-bodyy text-dark">
+							<p>@item.BlogEkContent</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+}
+

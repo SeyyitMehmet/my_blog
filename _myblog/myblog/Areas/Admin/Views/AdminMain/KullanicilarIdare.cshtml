@@ -1,0 +1,39 @@
+﻿@using Entitylayer.Concrate
+@model List<Kullanicilar>
+
+@{
+    ViewData["Title"] = "KullanicilarIdare";
+    Layout = "~/Areas/Admin/Views/Shared/AdminView.cshtml";
+}
+
+<h1>KullanicilarIdare</h1>
+
+
+<table class="table">
+    <thead>
+        <tr style=" text-align:center;justify-content:center">
+            <th scope="col">#</th>
+            <th scope="col">isim</th>
+            <th scope="col">mail</th>
+            <th scope="col">şifre</th>
+            <th scope="col"></th>
+
+        </tr>
+    </thead>
+    <br />
+    @foreach (var item in Model)
+    {
+        <tbody style="overflow-x: hidden; text-align:center;justify-content:center">
+            <tr>
+                <th scope="row">@item.KullaniciID</th>
+                <td><p style="height:40px;" class="overflow-hidden text-break">@item.KullaniciPhoto</p></td>
+                <td><p style="height:40px;" class="overflow-hidden text-break">@item.KullaniciMail</p></td>
+                <td><p style="height:40px;" class="overflow-hidden text-break">@item.KullaniciPassword</p></td>
+
+                <td><a href="/Admin/AdminMain/KullaniciDelete/@item.KullaniciID" class="btn btn-danger ">Sİl</a></td>
+                @*<td><a href="/Admin/AdminMain/NavbarDesign/@item.KullaniciID" class="btn btn-warning">Düzenle</a></td>*@
+            </tr>
+        </tbody>
+    }
+
+</table>

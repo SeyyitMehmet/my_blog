@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Entitylayer.Concrate.NavbarYonetimi>
+@*üst resim nav barın altındaki*@
+@foreach (var item in Model)
+{
+	<div class="container-fluid my-nav d-flex text-center justify-content-center align-items-center " style="background-image: url('@item.BüyükResim');">
+		<div class="row">
+			<div class="col-12">
+				<h1 class=" left-aligned ">
+					<a href="https://www.instagram.com/seyyit_mehmet_selvi/" target="_blank" class=" text-light text-decoration-none sms" style="font-family: 'Fasthand' ">@item.ResiminÜstYAzısı</a>
+				</h1>
+			</div>
+
+			<div class="">
+				<img src="@item.KüçükResim" class="yuvarlak " />
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid bg-dark " style="height:25px">
+	</div>
+}

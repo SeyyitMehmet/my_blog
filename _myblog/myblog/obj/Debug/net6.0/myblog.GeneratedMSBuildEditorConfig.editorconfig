@@ -1,0 +1,251 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = myblog
+build_property.RootNamespace = myblog
+build_property.ProjectDir = C:\Users\sms\Desktop\myblog\myblog\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\sms\Desktop\myblog\myblog
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Areas/Admin/Views/AdminMain/BlogAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYWluXEJsb2dBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Areas/Admin/Views/AdminMain/BlogContentDesing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYWluXEJsb2dDb250ZW50RGVzaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Areas/Admin/Views/AdminMain/CardDesing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYWluXENhcmREZXNpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Areas/Admin/Views/AdminMain/FooterDesign.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYWluXEZvb3RlckRlc2lnbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Areas/Admin/Views/AdminMain/FooterIdare.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYWluXEZvb3RlcklkYXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Areas/Admin/Views/AdminMain/KatagoriAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYWluXEthdGFnb3JpQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Areas/Admin/Views/AdminMain/katagoriler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYWluXGthdGFnb3JpbGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Areas/Admin/Views/AdminMain/KullanicilarIdare.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYWluXEt1bGxhbmljaWxhcklkYXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Areas/Admin/Views/AdminMain/NavbarDesign.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYWluXE5hdmJhckRlc2lnbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Areas/Admin/Views/AdminMain/navbarIdare.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYWluXG5hdmJhcklkYXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Areas/Admin/Views/AdminMain/yanMenuDesign.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYWluXHlhbk1lbnVEZXNpZ24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Areas/Admin/Views/AdminMain/yorumContentDesing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYWluXHlvcnVtQ29udGVudERlc2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Areas/Admin/Views/AdminMain/yorumlar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NYWluXHlvcnVtbGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Areas/Admin/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Areas/Admin/Views/Shared/AdminView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEFkbWluVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/BlogYorumEkleme/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1lvcnVtRWtsZW1lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/card/bootstrapcard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2FyZFxib290c3RyYXBjYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/footer/aboutus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZm9vdGVyXGFib3V0dXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/footer/awards.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZm9vdGVyXGF3YXJkcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/footer/contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZm9vdGVyXGNvbnRhY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/footer/help.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZm9vdGVyXGhlbHAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/footer/products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZm9vdGVyXHByb2R1Y3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/footer/sosyalmedia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZm9vdGVyXHNvc3lhbG1lZGlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/Home/partials/_footerPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwYXJ0aWFsc1xfZm9vdGVyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/Home/partials/_HaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwYXJ0aWFsc1xfSGFkZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/Home/partials/_munuPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwYXJ0aWFsc1xfbXVudVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/menuController1/Algoritma.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbWVudUNvbnRyb2xsZXIxXEFsZ29yaXRtYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/menuController1/bootsrap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbWVudUNvbnRyb2xsZXIxXGJvb3RzcmFwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/menuController1/Cplus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbWVudUNvbnRyb2xsZXIxXENwbHVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/menuController1/Csharp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbWVudUNvbnRyb2xsZXIxXENzaGFycC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/menuController1/MenuMainController.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbWVudUNvbnRyb2xsZXIxXE1lbnVNYWluQ29udHJvbGxlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/menuController1/Oyun.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbWVudUNvbnRyb2xsZXIxXE95dW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/menuController1/Programlama.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbWVudUNvbnRyb2xsZXIxXFByb2dyYW1sYW1hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/menuController1/webtasarım.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbWVudUNvbnRyb2xsZXIxXHdlYnRhc2FyxLFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/MenuDesign/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudURlc2lnblxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/menuEdebiyat/dostoyevski.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbWVudUVkZWJpeWF0XGRvc3RveWV2c2tpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/menuEdebiyat/ingilizedebiyatı.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbWVudUVkZWJpeWF0XGluZ2lsaXplZGViaXlhdMSxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/menuEdebiyat/rusedebiyatı.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbWVudUVkZWJpeWF0XHJ1c2VkZWJpeWF0xLEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/menuEdebiyat/turkedebiyatı.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbWVudUVkZWJpeWF0XHR1cmtlZGViaXlhdMSxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/menuEdebiyat/willeamsheakspeare.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbWVudUVkZWJpeWF0XHdpbGxlYW1zaGVha3NwZWFyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/Nav/diger.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF2XGRpZ2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/Nav/hakkımda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF2XGhha2vEsW1kYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/Nav/kurslar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF2XGt1cnNsYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/Nav/oyunlar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF2XG95dW5sYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/Nav/websiteleri.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmF2XHdlYnNpdGVsZXJpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/Shared/Components/BlogEkComment/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQmxvZ0VrQ29tbWVudFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/Shared/Components/FooterYazisi/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRm9vdGVyWWF6aXNpXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/Shared/Components/MenuList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudUxpc3RcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/Shared/Components/NavbarrList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyckxpc3RcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/UserLogin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckxvZ2luXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sms/Desktop/myblog/myblog/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-fy7dfg22b7

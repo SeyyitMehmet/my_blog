@@ -1,0 +1,32 @@
+﻿@model Entitylayer.Concrate.BlogEk
+@{
+    ViewData["Title"] = "BlogContentDesing";
+    Layout = "~/Areas/Admin/Views/Shared/AdminView.cshtml";
+}
+
+<h1>yorumContentDesing</h1>
+@using (Html.BeginForm("yorumContentDesing", "AdminMain", FormMethod.Post, new { enctype = "multipart/form-data" }))
+
+{
+    @Html.Label("Blog başlığı")
+    @Html.TextBoxFor(x=>x.BlogEkTitle,new{@class="form-control"})
+    @*@Html.ValidationMessageFor(x=>x.BlogTitle)*@
+    <br />
+    @Html.Label("Blog görseli")
+    <input type="file" name="ImageFile" accept="image/*" class="form-control" />
+    @*@Html.ValidationMessageFor(x=>x.BlogImage)*@
+    <br />
+    @Html.Label("Blog içerigi")
+    @Html.TextAreaFor(x=>x.BlogEkContent,10,3,new{@class="form-control"})
+    @*@Html.ValidationMessageFor(x=>x.BlogContent)*@
+    <br />
+    @Html.Label("BlogEk ID")
+    @Html.TextBoxFor(x=>x.BlogEkID, new{@class="form-control"})
+    <br />
+    @Html.Label("Blog ID")
+    @Html.TextBoxFor(x=>x.BlogID, new{@class="form-control"})
+    
+
+
+    <button class="btn btn-primary">Kaydet</button>
+}

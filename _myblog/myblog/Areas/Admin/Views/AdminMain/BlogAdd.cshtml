@@ -1,0 +1,23 @@
+﻿@model myblog.Models.AddImage
+@{
+    ViewData["Title"] = "BlogAdd";
+    Layout = "~/Areas/Admin/Views/Shared/AdminView.cshtml";
+}
+
+<h1>BlogAdd</h1>
+@using (Html.BeginForm("BlogAdd", "AdminMain", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.LabelFor(x => x.BlogTitle, "Blog başlığı")
+    @Html.TextBoxFor(x => x.BlogTitle, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.BlogTitle)
+    <br />
+    @Html.Label("Blog görseli")
+    <input type="file" name="ImageFile" accept="image/*" class="form-control" />
+    @Html.ValidationMessageFor(x => x.BlogImage)
+    <br />
+    @Html.LabelFor(x => x.BlogContent, "Blog içeriği")
+    @Html.TextAreaFor(x => x.BlogContent, 10, 3, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.BlogContent)
+    <br />
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+}

@@ -1,0 +1,44 @@
+﻿@model Entitylayer.Concrate.Footer
+
+@{
+    ViewData["Title"] = "FooterDesign";
+    Layout = "~/Areas/Admin/Views/Shared/AdminView.cshtml";
+}
+
+<h1>FooterDesign</h1>
+
+
+@using (Html.BeginForm("FooterDesign", "AdminMain", FormMethod.Post, new { enctype = "multipart/form-data" }))
+
+{
+    @Html.Label("Footer ID")
+    @Html.TextBoxFor(x=>x.FooterID,new{@class="form-control"})
+    @*@Html.ValidationMessageFor(x=>x.BlogTitle)*@
+    <br />
+  
+    @Html.Label("Awards")
+    @Html.TextAreaFor(x=>x.Awards,10,3,new{@class="form-control"})
+    @*@Html.ValidationMessageFor(x=>x.BlogContent)*@
+    <br />
+    @Html.Label("Help")
+    @Html.TextBoxFor(x=>x.Help,new{@class="form-control"})
+    <br />
+    @Html.Label("Contact")
+    @Html.TextBoxFor(x=>x.Contact,new{@class="form-control"})
+    
+    @Html.Label("Ozlu Soz")
+    @Html.TextBoxFor(x=>x.OzluSoz,new{@class="form-control"})
+    <br />
+    @Html.Label("Facebook")
+    @Html.TextBoxFor(x=>x.Facebook,new{@class="form-control"})
+    <br />
+    @Html.Label("Google")
+    @Html.TextBoxFor(x=>x.Google,new{@class="form-control"})
+    <br />
+    @Html.Label("Instagram")
+    @Html.TextBoxFor(x=>x.Instagram,new{@class="form-control"})
+
+
+
+    <button class="btn btn-primary">Kaydet</button>
+}

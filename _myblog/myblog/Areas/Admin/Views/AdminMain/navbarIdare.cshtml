@@ -1,0 +1,44 @@
+﻿@using Entitylayer.Concrate
+@model List<NavbarYonetimi>
+@{
+    ViewData["Title"] = "navbarIdare";
+    Layout = "~/Areas/Admin/Views/Shared/AdminView.cshtml";
+}
+
+<h1>navbarIdare</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Hakkımda</th>
+            <th scope="col">Kurslar</th>
+            <th scope="col">Oyunlar</th>
+            <th scope="col">Web</th>
+            <th scope="col">Diger</th>
+            <th scope="col">ResminUstYazisi</th>
+            <th scope="col">BuyukResim</th>
+            <th scope="col">KucukResim</th>
+            <th scope="col">Düzenle</th>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tbody style="overflow-x: hidden;">
+            <tr>
+                <th scope="row">@item.NavbarID</th>
+                <td><p style="height:40px;" class="overflow-hidden text-break">@item.Hakkımda</p></td>
+                <td><p style="height:40px;" class="overflow-hidden text-break">@item.Kurslar</p></td>
+                <td><p style="height:40px;" class="overflow-hidden text-break">@item.Oyunlar</p></td>
+                <td><p style="height:40px;" class="overflow-hidden text-break">@item.Web</p></td>
+                <td><p style="height:40px;" class="overflow-hidden text-break">@item.Diger</p></td>
+                <td><p style="height:40px;" class="overflow-hidden text-break">@item.ResiminÜstYAzısı</p></td>
+                <td>@item.BüyükResim</td>
+                <td>@item.KüçükResim</td>
+                <td><a href="/Admin/AdminMain/NavbarDesign/@item.NavbarID" class="btn btn-warning">Düzenle</a></td>
+            </tr>
+        </tbody>
+    }
+
+</table>

@@ -1,0 +1,44 @@
+﻿@using Entitylayer.Concrate
+@model List<Footer>
+
+@{
+    ViewData["Title"] = "FooterIdare";
+    Layout = "~/Areas/Admin/Views/Shared/AdminView.cshtml";
+}
+
+<h1>FooterIdare</h1>
+
+
+<table class="table" >
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Awards</th>
+            <th scope="col">help</th>
+            <th scope="col">Contact</th>
+            <th scope="col">OzluSoz</th>
+            <th scope="col">Facebook</th>
+            <th scope="col">Google</th>
+            <th scope="col">Instagram</th>
+            <th scope="col">Düzenle</th>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tbody style="overflow-x: hidden;">
+            <tr>
+                <th scope="row">@item.FooterID</th>
+                
+                <td><p style="height:40px;" class="overflow-hidden text-break">@item.Awards</p></td>
+                <td><p style="height:40px;" class="overflow-hidden text-break">@item.Help</p></td>
+                <td><p style="height:40px;" class="overflow-hidden text-break">@item.Contact</p></td>
+                <td><p style="height:40px;" class="overflow-hidden text-break">@item.OzluSoz</p></td>
+                <td><p style="height:40px;" class="overflow-hidden text-break">@item.Facebook</p></td>
+                <td><p style="height:40px;" class="overflow-hidden text-break">@item.Google</p></td>
+                <td><p style="height:40px;" class="overflow-hidden text-break">@item.Instagram</p></td>
+                <td><a href="/Admin/AdminMain/FooterDesign/@item.FooterID" class="btn btn-warning">Düzenle</a></td>
+            </tr>
+        </tbody>
+    }
+
+</table>

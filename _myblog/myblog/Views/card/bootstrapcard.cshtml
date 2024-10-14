@@ -1,0 +1,40 @@
+﻿
+@model IEnumerable<Entitylayer.Concrate.Blog>
+
+
+@{
+}
+
+@foreach (var item in Model)
+{
+    <div class="cardjj mb-3 w-100 bg-dark text-light mt-1" style="">
+        <div class="g-0">
+            <div class=" d-flex justify-content-center ">
+                <img src="@item.BlogImage" style="height:contain;width:40%" class=" p-2" />
+            </div>
+            <div class="">
+                <div class="card-body">
+                    <h5 class="card-title d-flex justify-content-center text-decoration-underline">@item.BlogTitle</h5>
+                    <p class="card-text">
+                        @Html.Raw(item.BlogContent)
+
+                    </p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    
+}
+
+@*@Html.Partial("~/Views/BlogYorumEkleme/Index.cshtml")*@
+@*@Html.ActionLink("abc","Index","BlogYorumEkleme")*@
+
+@Html.Partial("~/Views/BlogYorumEkleme/Index.cshtml",  new {id=ViewBag.i})
+
+@*@await Html.PartialAsync("~/Views/BlogYorumEkleme/Index.cshtml")*@
+
+
+@await Component.InvokeAsync("BlogEkComment", new {id=ViewBag.i})

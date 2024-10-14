@@ -1,0 +1,17 @@
+C:\Users\sema\source\repos\myblog\DataAcsessLayer\bin\Release\net6.0\DataAcsessLayer.deps.json
+C:\Users\sema\source\repos\myblog\DataAcsessLayer\bin\Release\net6.0\DataAcsessLayer.runtimeconfig.json
+C:\Users\sema\source\repos\myblog\DataAcsessLayer\bin\Release\net6.0\DataAcsessLayer.dll
+C:\Users\sema\source\repos\myblog\DataAcsessLayer\bin\Release\net6.0\DataAcsessLayer.pdb
+C:\Users\sema\source\repos\myblog\DataAcsessLayer\bin\Release\net6.0\Entitylayer.dll
+C:\Users\sema\source\repos\myblog\DataAcsessLayer\bin\Release\net6.0\Entitylayer.pdb
+C:\Users\sema\source\repos\myblog\DataAcsessLayer\obj\Release\net6.0\DataAcsessLayer.csproj.AssemblyReference.cache
+C:\Users\sema\source\repos\myblog\DataAcsessLayer\obj\Release\net6.0\DataAcsessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sema\source\repos\myblog\DataAcsessLayer\obj\Release\net6.0\DataAcsessLayer.AssemblyInfoInputs.cache
+C:\Users\sema\source\repos\myblog\DataAcsessLayer\obj\Release\net6.0\DataAcsessLayer.AssemblyInfo.cs
+C:\Users\sema\source\repos\myblog\DataAcsessLayer\obj\Release\net6.0\DataAcsessLayer.csproj.CoreCompileInputs.cache
+C:\Users\sema\source\repos\myblog\DataAcsessLayer\obj\Release\net6.0\DataAcsessLayer.csproj.CopyComplete
+C:\Users\sema\source\repos\myblog\DataAcsessLayer\obj\Release\net6.0\DataAcsessLayer.dll
+C:\Users\sema\source\repos\myblog\DataAcsessLayer\obj\Release\net6.0\refint\DataAcsessLayer.dll
+C:\Users\sema\source\repos\myblog\DataAcsessLayer\obj\Release\net6.0\DataAcsessLayer.pdb
+C:\Users\sema\source\repos\myblog\DataAcsessLayer\obj\Release\net6.0\DataAcsessLayer.genruntimeconfig.cache
+C:\Users\sema\source\repos\myblog\DataAcsessLayer\obj\Release\net6.0\ref\DataAcsessLayer.dll

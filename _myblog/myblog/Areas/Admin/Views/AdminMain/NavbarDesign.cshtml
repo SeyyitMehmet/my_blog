@@ -1,0 +1,50 @@
+﻿@model Entitylayer.Concrate.NavbarYonetimi
+@{
+    ViewData["Title"] = "NavbarDesign";
+    Layout = "~/Areas/Admin/Views/Shared/AdminView.cshtml";
+}
+
+
+
+
+
+
+<h1>NavbarDesign</h1>
+@using (Html.BeginForm("NavbarDesign", "AdminMain", FormMethod.Post, new { enctype = "multipart/form-data" }))
+
+{
+    @Html.Label("Hakkımda")
+    @Html.TextAreaFor(x=>x.Hakkımda,10,3,new{@class="form-control"})
+    @*@Html.ValidationMessageFor(x=>x.BlogTitle)*@
+    <br />
+    @Html.Label("Buyuk Resim")
+    <input type="file" name="bigImg" accept="image/*" class="form-control" />
+    @*@Html.ValidationMessageFor(x=>x.BlogImage)*@
+    <br />
+    @Html.Label("Kucuk Resim")
+    <input type="file" name="smallImg" accept="image/*" class="form-control" />
+    @*@Html.ValidationMessageFor(x=>x.BlogImage)*@
+    <br />
+    @Html.Label("web")
+    @Html.TextAreaFor(x=>x.Web,10,3,new{@class="form-control"})
+    @*@Html.ValidationMessageFor(x=>x.BlogContent)*@
+    <br />
+    @Html.Label("NavbarID")
+    @Html.TextBoxFor(x=>x.NavbarID,new{@class="form-control"})
+    <br />
+    @Html.Label("Resmin ust yazısı")
+    @Html.TextAreaFor(x=>x.ResiminÜstYAzısı,10,3,new{@class="form-control"})
+    <br />
+    @Html.Label("Kurslar")
+    @Html.TextAreaFor(x=>x.Kurslar,10,3,new{@class="form-control"})
+    <br />
+    @Html.Label("Oyunlar")
+    @Html.TextAreaFor(x=>x.Oyunlar,10,3,new{@class="form-control"})
+    <br />
+    @Html.Label("Diger")
+    @Html.TextAreaFor(x=>x.Diger,10,3,new{@class="form-control"})
+
+
+
+    <button class="btn btn-primary">Kaydet</button>
+}

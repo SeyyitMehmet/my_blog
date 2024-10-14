@@ -1,0 +1,12 @@
+C:\Users\sema\source\repos\myblog\Entitylayer\bin\Release\net6.0\Entitylayer.deps.json
+C:\Users\sema\source\repos\myblog\Entitylayer\bin\Release\net6.0\Entitylayer.dll
+C:\Users\sema\source\repos\myblog\Entitylayer\bin\Release\net6.0\Entitylayer.pdb
+C:\Users\sema\source\repos\myblog\Entitylayer\obj\Release\net6.0\Entitylayer.csproj.AssemblyReference.cache
+C:\Users\sema\source\repos\myblog\Entitylayer\obj\Release\net6.0\Entitylayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sema\source\repos\myblog\Entitylayer\obj\Release\net6.0\Entitylayer.AssemblyInfoInputs.cache
+C:\Users\sema\source\repos\myblog\Entitylayer\obj\Release\net6.0\Entitylayer.AssemblyInfo.cs
+C:\Users\sema\source\repos\myblog\Entitylayer\obj\Release\net6.0\Entitylayer.csproj.CoreCompileInputs.cache
+C:\Users\sema\source\repos\myblog\Entitylayer\obj\Release\net6.0\Entitylayer.dll
+C:\Users\sema\source\repos\myblog\Entitylayer\obj\Release\net6.0\refint\Entitylayer.dll
+C:\Users\sema\source\repos\myblog\Entitylayer\obj\Release\net6.0\Entitylayer.pdb
+C:\Users\sema\source\repos\myblog\Entitylayer\obj\Release\net6.0\ref\Entitylayer.dll

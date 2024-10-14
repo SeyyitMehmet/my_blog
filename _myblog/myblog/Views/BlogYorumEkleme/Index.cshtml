@@ -1,0 +1,89 @@
+﻿@*@using Entitylayer.Concrate
+@model BlogEk
+<h1>YORUMLAR</h1>
+
+@using (Html.BeginForm("Index", "BlogYorumEkleme", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+   
+    @Html.LabelFor(x => x.BlogEkContent, "Blog içeriği")
+    @Html.TextAreaFor(x => x.BlogEkContent, 10, 3, new { @class = "form-control" })
+    <br />
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+}
+
+*@
+@*@ViewBag.i*@
+
+
+
+<div class="comment-top">
+    <h4>Bir yorum Yapın</h4>
+    <div class="comment-bottom">
+        <form action="/BlogYorumEkleme/Index/" method="post">
+
+            <input class="form-control" type="hidden" name="BlogID" placeholder="ID" value="@ViewBag.i" required />
+            <textarea class="form-control " id="yorum" name="BlogEkContent" placeholder="yorumunuz" required=""></textarea>
+            <input type="submit" id="btn" value="paylass" />
+            @*  <button type="submit" class="btn btn-primary submit">
+            Paylas
+            </button>*@
+        </form>
+
+
+    </div>
+
+</div>
+@{
+    var b = 0;
+
+        if (!User.Identity.IsAuthenticated)
+        {
+            b = 1;
+  
+        }
+}
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+    
+    $(document).ready(function () {
+        $("form").submit(function (event) {
+            // Formun otomatik olarak gönderilmesini engelliyoruz.
+            event.preventDefault();
+
+            var form = $(this);
+            var formData = form.serialize();
+
+            $.ajax({
+                type: "POST",
+                url: form.attr("action"),
+                data: formData,
+                success: function (response) {
+                    if (response.success) {
+                        // Yorum eklendiyse, sayfayı yenile
+                        location.reload();
+                    } else {
+                        alert("Yorum eklenirken bir hata oluştu1.");
+                    }
+                },
+                error: function () {
+                    alert("Yorum eklenirken bir hata oluştu2.");
+                    
+                }
+            });
+        });
+
+        $("#yorum").on("click", function () {
+            // Tıklanıldığında yapılması gereken işlemleri buraya yazabilirsiniz
+            var as = @b; 
+            if (as==1) {
+                window.location.href = "/UserLogin/Index";
+
+
+            } 
+           
+        });
+
+    });
+</script>
+
+
